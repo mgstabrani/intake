@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -64,29 +66,31 @@
         </style>
     </head>
     <body>
+        <div class="fixed-top mb-5">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #800000 ">
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item">
+                        <a style="color: white">8VENGERS</a>
+                        <img src="img/dove.png" height="28">
+                    </li> -->
+                    <li class="nav-item col">
+                        <a style="color: white">Learn for Excellence, Lead for Inspiration</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
-                <div class="title m-b-md">
-                    8VENGERS
+                <h3>Road to 3rd Step</h3>
+            <form action="/menu3" method="post">
+                @csrf
+                <div class="form-group">
+                    <label for="sandi">Sandi</label>
+                    <input type="password" class="form-control" name="sandi">
+                    <small class="form-text text-muted">Solve this or you cannot move</small>
                 </div>
-
-                <div class="links">
-                    <a href="/readme">Klik dong</a>
-                </div>
+                  <button type="submit" class="btn btn-primary">Next</button>
+            </form>
             </div>
         </div>
     </body>

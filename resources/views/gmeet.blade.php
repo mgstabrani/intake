@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -65,27 +67,17 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
                     8VENGERS
                 </div>
 
-                <div class="links">
-                    <a href="/readme">Klik dong</a>
+                <div>
+                    <p>Learn for excellence, lead for inspiration</p>
+                    <p>Happy 4th Anniversarry</p>
+                    <a href="https://meet.goolge.com" class="btn btn-success">
+                        Kuy
+                    </a>
                 </div>
             </div>
         </div>

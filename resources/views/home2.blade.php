@@ -41,7 +41,7 @@
                         <a href="/pdf/dolphin.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
@@ -56,7 +56,7 @@
                         <a href="/pdf/dove.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
@@ -71,7 +71,7 @@
                         <a href="/pdf/eagle.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
@@ -88,7 +88,7 @@
                         <a href="/pdf/hornbill.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
@@ -103,7 +103,7 @@
                         <a href="/pdf/komodo.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary mt-4">
+                        <a href="/gform2" class="btn btn-primary mt-4">
                             Google Form
                         </a>
                         </p>
@@ -118,7 +118,7 @@
                         <a href="/pdf/lion.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary mt-4">
+                        <a href="/gform2" class="btn btn-primary mt-4">
                             Google Form
                         </a>
                         </p>
@@ -135,7 +135,7 @@
                         <a href="/pdf/mantaray.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
@@ -150,7 +150,7 @@
                         <a href="/pdf/rhino.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </P>
@@ -165,7 +165,7 @@
                         <a href="/pdf/shark.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
-                        <a href="/gform1" class="btn btn-primary">
+                        <a href="/gform2" class="btn btn-primary">
                             Google Form
                         </a>
                         </p>
