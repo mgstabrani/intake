@@ -21,10 +21,10 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <!-- <a style="color: white">8VENGERS</a> -->
-                        <img src="img/dove.png" width="28" height="28">
+                        <img src="img/dove.png" height="28">
                     </li>
                     <li class="nav-item col">
-                        <a style="color: white">Learn for Excellence, Lead for Inspiation</a>
+                        <a style="color: white">Learn for Excellence, Lead for Inspiration</a>
                     </li>
                 </ul>
             </nav>
@@ -33,9 +33,10 @@
         <div class="container mt-5 ">
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/dolphin.png" class="card-img-top" alt="dolphin" width="100" height="150" >
+                    <img src="img/dolphin.png" class="card-img-top" alt="dolphin" height="150" >
                     <div class="card-body">
                         <h3 class="card-text">Dolphin</h3>
+                        <p>Do the best prepare for the worst</p>
                         <p>
                         <a href="/pdf/dolphin.pdf" download class="btn btn-success">
                             Unduh soal
@@ -45,8 +46,9 @@
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
                     <div class="card-body">
-                        <img src="img/dove.png" class="card-img-top" alt="dove" width="128" height="128">
+                        <img src="img/dove.png" class="card-img-top" alt="dove" height="150">
                         <h3 class="card-text">Dove</h3>
+                        <p>Go fight and win</p>
                         <p>
                         <a href="/pdf/dove.pdf" download class="btn btn-success">
                             Unduh soal
@@ -55,9 +57,10 @@
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/eagle.jpg" class="card-img-top" alt="eagle" width="128" height="128">
+                    <img src="img/eagle.jpg" class="card-img-top" alt="eagle" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Eagle</h3>
+                        <p>Fly high</p>
                         <p>
                         <a href="/pdf/eagle.pdf" download class="btn btn-success">
                             Unduh soal
@@ -68,9 +71,10 @@
             </div>
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/hornbill.png" class="card-img-top" alt="hornbill" width="128" height="128">
+                    <img src="img/hornbill.png" class="card-img-top" alt="hornbill" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Hornbill</h3>
+                        <p>We lead our team to reach our dream</p>
                         <p>
                         <a href="/pdf/hornbill.pdf" download class="btn btn-success">
                             Unduh soal
@@ -79,22 +83,24 @@
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/komodo.png" class="card-img-top" alt="komodo" width="128" height="128">
+                    <img src="img/komodo.png" class="card-img-top" alt="komodo" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Komodo</h3>
+                        <p>Hip hip hura win</p>
                         <p>
-                        <a href="/pdf/komodo.pdf" download class="btn btn-success">
+                        <a href="/pdf/komodo.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
                         </p>
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/lion.png" class="card-img-top" alt="lion" width="128" height="128">
+                    <img src="img/lion.png" class="card-img-top" alt="lion" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Lion</h3>
+                        <p>Enjoy aja</p>
                         <p>
-                        <a href="/pdf/lion.pdf" download class="btn btn-success">
+                        <a href="/pdf/lion.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
                         </p>
@@ -103,9 +109,10 @@
             </div>
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/mantaray.png" class="card-img-top" alt="mantaray" width="128" height="128">
+                    <img src="img/mantaray.png" class="card-img-top" alt="mantaray" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Mantaray</h3>
+                        <p>Talk more do more</p>
                         <p>
                         <a href="/pdf/mantaray.pdf" download class="btn btn-success">
                             Unduh soal
@@ -114,9 +121,10 @@
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/rhino.png" class="card-img-top" alt="rhino" width="128" height="128">
+                    <img src="img/rhino.png" class="card-img-top" alt="rhino" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Rhino</h3>
+                        <p>Win today win tomorrow</p>
                         <p>
                         <a href="/pdf/rhino.pdf" download class="btn btn-success">
                             Unduh soal
@@ -125,9 +133,10 @@
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/shark.jpg" class="card-img-top" alt="shark" width="128" height="128">
+                    <img src="img/shark.jpg" class="card-img-top" alt="shark" height="150">
                     <div class="card-body">
                         <h3 class="card-text">Shark</h3>
+                        <p>No complain do the best</p>
                         <p>
                         <a href="/pdf/shark.pdf" download class="btn btn-success">
                             Unduh soal
