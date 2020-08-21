@@ -13,9 +13,23 @@
                 text-align:center;
             }
         </style>
-        <title>Laravel</title>
+        <title>8VENGERS</title>
     </head>
     <body>
+        <div class="fixed-top mb-5">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #800000 ">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <!-- <a style="color: white">8VENGERS</a> -->
+                        <img src="img/dove.png" width="28" height="28">
+                    </li>
+                    <li class="nav-item col">
+                        <a style="color: white">Learn for Excellence, Lead for Inspiation</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
         <div class="container mt-5 ">
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
@@ -54,7 +68,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/hornbill.png" class="card-img-top" alt="dove" width="128" height="128">
+                    <img src="img/hornbill.png" class="card-img-top" alt="hornbill" width="128" height="128">
                     <div class="card-body">
                         <h3 class="card-text">Hornbill</h3>
                         <p>
@@ -76,7 +90,7 @@
                     </div>
                 </div>
                 <div class="card mb-2 mr-2" style="width: 18rem;">
-                    <img src="img/lion.png" class="card-img-top" alt="dove" width="128" height="128">
+                    <img src="img/lion.png" class="card-img-top" alt="lion" width="128" height="128">
                     <div class="card-body">
                         <h3 class="card-text">Lion</h3>
                         <p>

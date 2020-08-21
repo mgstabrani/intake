@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/intro', function () {
     return view('welcome');
 });
 Route::get('/menu', function(){
     return view('home');
+});
+Route::get('/twibbon', function(){
+    return view('twibbon');
 });
