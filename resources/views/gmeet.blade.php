@@ -75,7 +75,7 @@
                 <div>
                     <p>Learn for excellence, lead for inspiration</p>
                     <p>Happy 4th Anniversarry</p>
-                    <a href="https://meet.goolge.com" class="btn btn-success">
+                    <a href="https://meet.google.com/" class="btn btn-success">
                         Kuy
                     </a>
                 </div>
