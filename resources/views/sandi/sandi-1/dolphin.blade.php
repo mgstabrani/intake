@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/dolphin.png">
 
         <!-- Styles -->
         <style>
@@ -66,17 +67,32 @@
         </style>
     </head>
     <body>
+        <div class="fixed-top mb-5">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #800000 ">
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item">
+                        <a style="color: white">8VENGERS</a>
+                        <img src="img/dove.png" height="28">
+                    </li> -->
+                    <li class="nav-item col">
+                        <a style="color: white">Learn for Excellence, Lead for Inspiration</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md">
-                    Ini G-Form
+                <h3>Road to 2nd Step</h3>
+            <form action="/sandi1-dolphin" method="post">
+                @csrf
+                <div class="form-group">
+                    <label for="sandi">Sandi</label>
+                    <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil">
+                    <small class="form-text text-muted">Solve this or you cannot move</small>
                 </div>
-
-                <div>
-                    <a href="/form2" class="btn btn-success">
-                        Next
-                    </a>
-                </div>
+                  <button type="submit" class="btn btn-primary">Next</button>
+                  <a href="/menu" class="btn btn-danger">Back<a>
+            </form>
             </div>
         </div>
     </body>

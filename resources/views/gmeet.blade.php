@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/logo.png">
 
         <!-- Styles -->
         <style>
@@ -68,14 +69,14 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md">
-                    8VENGERS
-                </div>
-
                 <div>
+                    <div">
+                        <img src="img/logo.png" height="150">
+                    </div>
+                    <br>
                     <p>Learn for excellence, lead for inspiration</p>
                     <p>Happy 4th Anniversarry</p>
-                    <a href="https://meet.google.com/" class="btn btn-success">
+                    <a href="https://meet.google.com/hfs-brxs-hje" class="btn btn-success">
                         Kuy
                     </a>
                 </div>

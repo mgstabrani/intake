@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/dove.png">
 
         <!-- Styles -->
         <style>
@@ -81,15 +82,16 @@
         </div>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <h3>Road to 3rd Step</h3>
-            <form action="/menu3" method="post">
+                <h3>Road to 2nd Step</h3>
+            <form action="/sandi1-dove" method="post">
                 @csrf
                 <div class="form-group">
                     <label for="sandi">Sandi</label>
-                    <input type="password" class="form-control" name="sandi">
+                    <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil">
                     <small class="form-text text-muted">Solve this or you cannot move</small>
                 </div>
                   <button type="submit" class="btn btn-primary">Next</button>
+                  <a href="/menu" class="btn btn-danger">Back<a>
             </form>
             </div>
         </div>
