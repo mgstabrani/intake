@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/logo.png">
 
         <!-- Styles -->
         <style>
@@ -75,10 +76,12 @@
                 <div>
                     <p>Unduh soal terlebih dahulu</p>
                     <p>Diskusikan jawabannya dengan house tercinta</p>
-                    <p>Jika sudah mendapatkan seluruh jawaban, silakan menuju Google Form</p>
-                    <p>Tuliskan jawaban di Google form</p>
+                    <p>Jika sudah mendapatkan seluruh jawaban, silakan klik "Next"</p>
+                    <p>Tuliskan sandi yang berasal dari huruf-huruf awal jawaban soal sebelumya</p>
+                    <p>Gunakan huruf kecil</p>
+                    <br>
                     <a href="/menu" class="btn btn-success">
-                        Mulai
+                        Go to 1st step
                     </a>
                 </div>
             </div>
