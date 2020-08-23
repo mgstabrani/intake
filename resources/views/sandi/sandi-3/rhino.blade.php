@@ -82,7 +82,7 @@
         </div>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <h3>Road to 3rd Step</h3>
+                <h3>Road to Final</h3>
             <form action="/sandi3-rhino" method="post">
                 @csrf
                 <div class="form-group">
