@@ -89,6 +89,7 @@
                     <label for="sandi">Sandi</label>
                     <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil">
                     <small class="form-text text-muted">Solve this or you cannot move</small>
+                    <input type="checkbox" class="form-checkbox">
                 </div>
                   <button type="submit" class="btn btn-primary">Next</button>
                   <a href="/menu" class="btn btn-danger">Back<a>
@@ -96,4 +97,15 @@
             </div>
         </div>
     </body>
+<script type="text/javascript">
+	$(document).ready(function(){		
+		$('.form-checkbox').click(function(){
+			if($(this).is(':checked')){
+				$('.form-password').attr('type','text');
+			}else{
+				$('.form-password').attr('type','password');
+			}
+		});
+	});
+</script>
 </html>
