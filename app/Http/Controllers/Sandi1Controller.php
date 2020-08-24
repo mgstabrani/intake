@@ -37,7 +37,7 @@ class Sandi1Controller extends Controller
     }
 
     public function hornbill1(Request $request){
-        $sandi = 'hornbill1';
+        $sandi = 'nanah';
 
         if ($sandi == $request->sandi){
             return view('menu2.hornbill');
@@ -47,7 +47,7 @@ class Sandi1Controller extends Controller
     }
 
     public function komodo1(Request $request){
-        $sandi = 'komodo1';
+        $sandi = 'dilan';
 
         if ($sandi == $request->sandi){
             return view('menu2.komodo');
@@ -57,7 +57,7 @@ class Sandi1Controller extends Controller
     }
 
     public function lion1(Request $request){
-        $sandi = 'lion1';
+        $sandi = 'nuyul';
 
         if ($sandi == $request->sandi){
             return view('menu2.lion');
@@ -67,7 +67,7 @@ class Sandi1Controller extends Controller
     }
 
     public function mantaray1(Request $request){
-        $sandi = 'mantaray1';
+        $sandi = 'orens';
 
         if ($sandi == $request->sandi){
             return view('menu2.mantaray');
@@ -77,7 +77,7 @@ class Sandi1Controller extends Controller
     }
 
     public function rhino1(Request $request){
-        $sandi = 'rhino1';
+        $sandi = 'hijau';
 
         if ($sandi == $request->sandi){
             return view('menu2.rhino');
@@ -87,7 +87,7 @@ class Sandi1Controller extends Controller
     }
 
     public function shark1(Request $request){
-        $sandi = 'shark1';
+        $sandi = 'lambe';
 
         if ($sandi == $request->sandi){
             return view('menu2.shark');

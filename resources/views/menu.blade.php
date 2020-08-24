@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="shortcut icon" href="img/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <style>
             h3{
@@ -16,7 +19,7 @@
         </style>
         <title>8VENGERS</title>
     </head>
-    <body>
+    <body>   
         <div class="fixed-top mb-5">
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #800000 ">
                 <ul class="navbar-nav mr-auto">
@@ -27,7 +30,14 @@
             </nav>
         </div>
         <br><br>
+        
         <div class="container mt-5 ">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                Pilihlah sesuai <strong><i>house</i></strong> masing-masing!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
             <div class="row justify-content-center">
                 <div class="card mb-2 mr-2" style="width: 18rem;">
                     <img src="img/dolphin.png" class="card-img-top" alt="dolphin" height="150" >
@@ -91,7 +101,7 @@
                         <h3 class="card-text">Hornbill</h3>
                         <p>We lead our team to reach our dream</p>
                         <p>
-                        <a href="/pdf/hornbill.pdf" download class="btn btn-success">
+                        <a href="/pdf/hornbill/hornbill-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </P>
@@ -109,7 +119,7 @@
                         <h3 class="card-text">Komodo</h3>
                         <p>Hip hip hura win</p>
                         <p>
-                        <a href="/pdf/komodo.pdf" download class="btn btn-success mt-4">
+                        <a href="/pdf/komodo/komodo-1.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
                         </p>
@@ -127,7 +137,7 @@
                         <h3 class="card-text">Lion</h3>
                         <p>Enjoy aja</p>
                         <p>
-                        <a href="/pdf/lion.pdf" download class="btn btn-success mt-4">
+                        <a href="/pdf/lion/lion-1.pdf" download class="btn btn-success mt-4">
                             Unduh soal
                         </a>
                         </p>
@@ -147,7 +157,7 @@
                         <h3 class="card-text">Mantaray</h3>
                         <p>Talk more do more</p>
                         <p>
-                        <a href="/pdf/mantaray.pdf" download class="btn btn-success">
+                        <a href="/pdf/mantaray/mantaray-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
@@ -165,7 +175,7 @@
                         <h3 class="card-text">Rhino</h3>
                         <p>Win today win tomorrow</p>
                         <p>
-                        <a href="/pdf/rhino.pdf" download class="btn btn-success">
+                        <a href="/pdf/rhino/rhino-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
@@ -183,7 +193,7 @@
                         <h3 class="card-text">Shark</h3>
                         <p>No complain do the best</p>
                         <p>
-                        <a href="/pdf/shark.pdf" download class="btn btn-success">
+                        <a href="/pdf/shark/shark-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

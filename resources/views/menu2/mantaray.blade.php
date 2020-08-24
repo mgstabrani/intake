@@ -39,7 +39,7 @@
                         <h3 class="card-text">Mantaray</h3>
                         <p>Talk more do more</p>
                         <p>
-                        <a href="/pdf/mantaray.pdf" download class="btn btn-success">
+                        <a href="/pdf/mantaray/mantaray-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
