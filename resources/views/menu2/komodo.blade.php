@@ -39,7 +39,7 @@
                         <h3 class="card-text">Komodo</h3>
                         <p>Hip hip hura win</p>
                         <p>
-                        <a href="/pdf/komodo.pdf" download class="btn btn-success">
+                        <a href="/pdf/komodo/komodo-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

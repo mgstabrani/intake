@@ -39,7 +39,7 @@
                         <h3 class="card-text">Rhino</h3>
                         <p>Do the best prepare for the worst</p>
                         <p>
-                        <a href="/pdf/rhino.pdf" download class="btn btn-success">
+                        <a href="/pdf/rhino/rhino-3.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

@@ -39,7 +39,7 @@
                         <h3 class="card-text">Shark</h3>
                         <p>No complain do the best</p>
                         <p>
-                        <a href="/pdf/shark.pdf" download class="btn btn-success">
+                        <a href="/pdf/shark/shark-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

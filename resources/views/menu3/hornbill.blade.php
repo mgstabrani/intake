@@ -39,7 +39,7 @@
                         <h3 class="card-text">Hornbill</h3>
                         <p>We lead our team to reach our dream</p>
                         <p>
-                        <a href="/pdf/hornbill.pdf" download class="btn btn-success">
+                        <a href="/pdf/hornbill/hornbill-3.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
