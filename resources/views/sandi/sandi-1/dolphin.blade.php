@@ -87,7 +87,8 @@
                 @csrf
                 <div class="form-group">
                     <label for="sandi">Sandi</label>
-                    <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil">
+                    <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil" id="password">
+                    <input type="checkbox" onclick="myFunction()"><small class="ml-1">Tampilkan sandi</small>
                     <small class="form-text text-muted">Solve this or you cannot move</small>
                 </div>
                   <button type="submit" class="btn btn-primary">Next</button>
@@ -95,5 +96,15 @@
             </form>
             </div>
         </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("password");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
     </body>
 </html>
