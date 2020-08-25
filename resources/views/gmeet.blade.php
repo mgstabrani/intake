@@ -82,5 +82,8 @@
                 </div>
             </div>
         </div>
+        <script>
+            alert("Yeay kalian berhasil");
+        </script>
     </body>
 </html>
