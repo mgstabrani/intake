@@ -11,6 +11,9 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="shortcut icon" href="img/dolphin.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
         <!-- Styles -->
         <style>
@@ -64,6 +67,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .container i {
+                margin-left: -30px;
+                cursor: pointer;
+            }
         </style>
     </head>
     <body>
@@ -81,14 +89,20 @@
             </nav>
         </div>
         <div class="flex-center position-ref full-height">
-            <div class="content">
+            <div class="content">    
                 <h3>Road to 2nd Step</h3>
             <form action="/sandi1-dolphin" method="post">
                 @csrf
                 <div class="form-group">
                     <label for="sandi">Sandi</label>
-                    <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil" id="password">
-                    <input type="checkbox" onclick="myFunction()"><small class="ml-1">Tampilkan sandi</small>
+                    <div class="form-inline">
+                    <div class="input-group mr-sm-2">
+                        <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil" id="password">
+                        
+                        <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-fw fa-eye-slash field-icon" id="eye"></i></div>
+                        </div></div>
+                    </div>
                     <small class="form-text text-muted">Solve this or you cannot move</small>
                 </div>
                   <button type="submit" class="btn btn-primary">Next</button>
@@ -97,14 +111,28 @@
             </div>
         </div>
         <script>
-            function myFunction() {
-                var x = document.getElementById("password");
-                if (x.type === "password") {
-                    x.type = "text";
-                } else {
-                    x.type = "password";
+            $(function(){
+                $('#eye').click(function(){
+       
+                if($(this).hasClass('fa-eye-slash')){
+           
+                    $(this).removeClass('fa-eye-slash');
+                    
+                    $(this).addClass('fa-eye');
+          
+                    $('#password').attr('type','text');
+            
+                }else{
+         
+                    $(this).removeClass('fa-eye');
+          
+                    $(this).addClass('fa-eye-slash');  
+          
+                    $('#password').attr('type','password');
                 }
-            }
+            });
+        });
+        alert("Sandi berasal dari huruf-huruf awal jawaban soal sebelumnya");
         </script>
     </body>
 </html>
