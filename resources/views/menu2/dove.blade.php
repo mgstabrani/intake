@@ -39,7 +39,7 @@
                         <h3 class="card-text">Dove</h3>
                         <p>Go fight and win</p>
                         <p>
-                        <a href="/pdf/dove.pdf" download class="btn btn-success">
+                        <a href="/pdf/dove/dove-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

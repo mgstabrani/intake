@@ -45,7 +45,7 @@
                         <h3 class="card-text">Dolphin</h3>
                         <p>Do the best prepare for the worst</p>
                         <p>
-                        <a href="/pdf/dolphin.pdf" download class="btn btn-success">
+                        <a href="/pdf/dolphin/dolphin-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
@@ -63,7 +63,7 @@
                         <h3 class="card-text">Dove</h3>
                         <p>Go fight and win</p>
                         <p>
-                        <a href="/pdf/dove.pdf" download class="btn btn-success">
+                        <a href="/pdf/dove/dove-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
@@ -81,7 +81,7 @@
                         <h3 class="card-text">Eagle</h3>
                         <p>Fly high</p>
                         <p>
-                        <a href="/pdf/eagle.pdf" download class="btn btn-success">
+                        <a href="/pdf/eagle/eagle-1.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

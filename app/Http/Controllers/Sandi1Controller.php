@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class Sandi1Controller extends Controller
 {
     public function dolphin1(Request $request){
-        $sandi = 'dolphin1';
+        $sandi = 'aadc2';
 
         if ($sandi == $request->sandi){
             return view('menu2.dolphin');
@@ -17,7 +17,7 @@ class Sandi1Controller extends Controller
     }
 
     public function dove1(Request $request){
-        $sandi = 'dove1';
+        $sandi = 'qopit';
 
         if ($sandi == $request->sandi){
             return view('menu2.dove');
@@ -27,7 +27,7 @@ class Sandi1Controller extends Controller
     }
 
     public function eagle1(Request $request){
-        $sandi = 'eagle1';
+        $sandi = 'milea';
 
         if ($sandi == $request->sandi){
             return view('menu2.eagle');

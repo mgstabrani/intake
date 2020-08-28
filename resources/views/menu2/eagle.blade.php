@@ -39,7 +39,7 @@
                         <h3 class="card-text">Eagle</h3>
                         <p>Fly high</p>
                         <p>
-                        <a href="/pdf/eagle.pdf" download class="btn btn-success">
+                        <a href="/pdf/eagle/eagle-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>

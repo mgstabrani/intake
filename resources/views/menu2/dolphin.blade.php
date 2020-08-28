@@ -39,7 +39,7 @@
                         <h3 class="card-text">Dolphin</h3>
                         <p>Do the best prepare for the worst</p>
                         <p>
-                        <a href="/pdf/dolphin.pdf" download class="btn btn-success">
+                        <a href="/pdf/dolphin/dolphin-2.pdf" download class="btn btn-success">
                             Unduh soal
                         </a>
                         </p>
