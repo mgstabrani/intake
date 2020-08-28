@@ -67,23 +67,26 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="container">
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title">
                     READ ME!!
                 </div>
-
-                <div>
-                    <p>Unduh soal terlebih dahulu</p>
-                    <p>Diskusikan jawabannya dengan house tercinta</p>
-                    <p>Jika sudah mendapatkan seluruh jawaban, silakan klik "Next"</p>
-                    <p>Tuliskan sandi yang berasal dari huruf-huruf awal jawaban soal sebelumya</p>
-                    <p>Gunakan huruf kecil</p>
-                    <br>
-                    <a href="/menu" class="btn btn-success">
-                        Go to 1st step
-                    </a>
+                <div class="alert alert-danger" role="alert" style="text-align:left;">
+                    <ul>
+                        <li>Klik tombol hijau di bawah </li>
+                        <li>Kamu akan dialihkan ke halaman selanjutnya</li>
+                        <li>Unduh soal terlebih dahulu</li>
+                        <li>Diskusikan jawabannya dengan house tercinta</li>
+                        <li>Jika sudah mendapatkan seluruh jawaban, silakan klik "Next"</li>
+                        <li>Tuliskan sandi yang berasal dari huruf-huruf awal jawaban soal sebelumya untuk melanjutkan ke tahap selanjutnya</li>
+                        <li><i>Gunakan huruf kecil</i></li>
+                    </ul>
+                    <h6 style="text-align: center;">Selamat bersenang-senang</h5>
                 </div>
+                <a href="/menu" class="btn btn-success">
+                        Go to 1st step
+                </a>
             </div>
         </div>
     </body>

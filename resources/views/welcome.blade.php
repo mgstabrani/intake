@@ -75,5 +75,11 @@
                 </div>
             </div>
         </div>
+        <script>
+            var name = prompt("Siapa nama Anda?")
+            var house = prompt("Dari house mana?")
+            alert("Selamat datang di permainan annive-kito, " + name)
+            alert("Ayo bawa " + house + " ke Google Meet untuk berkumpul bersama 8VENGERS")
+        </script>
     </body>
 </html>
