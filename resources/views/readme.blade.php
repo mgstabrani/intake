@@ -79,8 +79,8 @@
                         <li>Unduh soal terlebih dahulu</li>
                         <li>Diskusikan jawabannya dengan house tercinta</li>
                         <li>Jika sudah mendapatkan seluruh jawaban, silakan klik "Next"</li>
-                        <li>Tuliskan sandi yang berasal dari huruf-huruf awal jawaban soal sebelumya untuk melanjutkan ke tahap selanjutnya</li>
-                        <li><i>Gunakan huruf kecil</i></li>
+                        <li>Tuliskan sandi yang berasal dari karakter-karakter awal jawaban soal sebelumya untuk melanjutkan ke tahap selanjutnya</li>
+                        <li><i>Gunakan huruf kecil dan angka</i></li>
                     </ul>
                     <h6 style="text-align: center;">Selamat bersenang-senang</h5>
                 </div>

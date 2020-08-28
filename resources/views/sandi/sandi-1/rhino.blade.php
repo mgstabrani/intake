@@ -126,7 +126,7 @@
                 }
             });
         });
-        alert("Sandi berasal dari huruf-huruf pertama jawaban soal sebelumnya. Jika jawaban salah, kamu tidak dapat ke halaman selanjutnya");
+        alert("Sandi berasal dari karakter-karakter pertama jawaban soal sebelumnya. Jika jawaban salah, kamu tidak dapat ke halaman selanjutnya");
         </script>
     </body>
 </html>
