@@ -99,7 +99,7 @@
                     <label for="sandi">Sandi</label>
                     <div class="form-inline">
                     <div class="input-group mr-sm-2">
-                        <input type="password" class="form-control" name="sandi" placeholder="Gunakan huruf kecil" id="password">
+                        <input type="password" class="form-control" name="sandi" placeholder="Hanya gunakan huruf kecil dan angka" id="password">
                         <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fa fa-fw fa-eye-slash field-icon" id="eye"></i></div>
                         </div></div>
